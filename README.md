@@ -6,9 +6,9 @@ SYSTEM Support
 -
 This sound driver have been tested as follows:
 
-2017-11-29-raspbian-stretch
+2017-07-05-raspbian-jessie --TEST OK!
 
-2017-07-05-raspbian-jessie
+2017-11-29-raspbian-stretch 
 
 2017-04-10-raspbian-jessie and even older version NOT Support!
 
@@ -24,7 +24,15 @@ cd sound_hat/
 
 sudo ./config.sh 
 
+sudo reboot
 
+speaker-test -c2 --test=wav -w /usr/share/sounds/alsa/Front_Center.wav
+
+sudo reboot
+
+you have to restart twice after install to get PIXEL to recognize the volume control
+
+sudo reboot
 
 How to test the HW
 --
@@ -50,7 +58,7 @@ How to Volume adjustment
 
 sudo alsamixer
 
-2.In Raspbian PIXEL you can set the volume using the menu item control. If it has an X through it, try restarting the Pi (you have to restart twice after install to get PIXEL to recognize the volume control
+2.In Raspbian PIXEL you can set the volume using the menu item control. If it has an X through it, try restarting the Pi (you have to restart twice after install to get PIXEL to recognize the volume control)
 
 
 
