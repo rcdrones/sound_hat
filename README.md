@@ -4,6 +4,8 @@ This is sound hat's driver for raspberry pi
 
 SYSTEM Support
 -
+Raspbian
+--
 This sound driver have been tested as follows:
 
 2017-07-05-raspbian-jessie --TEST OK! Recommend this OS!
@@ -13,8 +15,16 @@ This sound driver have been tested as follows:
 2017-04-10-raspbian-jessie and even older version NOT Support!
 
 
+RetroPie
+--
+retropie-4.3-rpi2_rpi3.img.gz -- TEST OK! 
+
+
+
 
 How to install the driver
+-
+Rsapbian
 --
 cd ~
 
@@ -39,8 +49,19 @@ you have to restart twice after install to get PIXEL to recognize the volume con
 
 sudo reboot
 
-How to test the HW
+RetroPie
 --
+Because RetroPie like application on raspbian OS. So driver install produce like above.
+TIPS: 
+1. When retropie boot stage finish, push START button ,select exit emulation and run Linux console.
+2. Download sound_hat driver from git clone instrction.
+3. run config.sh
+4. reboot the board.(sudo reboot)
+
+
+
+How to test the HW
+-
 make sure speaker(1W, 8ohm) have been installed right!
 
 Play test wav file:
@@ -71,6 +92,8 @@ Download OS link
 2017-07-05-raspbian-jessie -- https://pan.baidu.com/s/1ggE8Acz
 
 2017-11-29-raspbian-stretch -- https://pan.baidu.com/s/1mjsJH8k
+
+retropie-4.3-rpi2_rpi3.img.gz -- https://pan.baidu.com/s/1qZU5ro4
 
 
 
