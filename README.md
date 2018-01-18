@@ -66,6 +66,14 @@ sudo alsamixer
 2.In Raspbian PIXEL you can set the volume using the menu item control. If it has an X through it, try restarting the Pi (you have to restart twice after install to get PIXEL to recognize the volume control)
 
 
+Download OS link
+--
+2017-07-05-raspbian-jessie -- https://pan.baidu.com/s/1ggE8Acz
+
+2017-11-29-raspbian-stretch -- https://pan.baidu.com/s/1mjsJH8k
+
+
+
 
 How to update this repo
 --
