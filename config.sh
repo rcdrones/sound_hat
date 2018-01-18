@@ -47,6 +47,6 @@ for rcfile in "$asoundrc" "$global_asoundrc"; do
   fi
 done
 
-sudo cp /home/pi/Desktop/asound.conf "$global_asoundrc"
+sudo cp /home/pi/sound_hat/asound.conf "$global_asoundrc"
 echo "Installed Success!!!"
 
