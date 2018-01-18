@@ -9,14 +9,15 @@ git clone https://github.com/rcdrones/sound_hat
 
 cd sound_hat/
 
+git config --global user.email "rcdrones@163.com"
+
+git config --global user.name "rcdrones"
+
 git add .
 
 git commit -m "add driver"
 
 git push -u origin master 
 
-rcdrxxx@xxx.com
-
-Branch master set up to track remote branch master from origin.
 
 
