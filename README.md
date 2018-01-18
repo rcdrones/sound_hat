@@ -6,9 +6,9 @@ SYSTEM Support
 -
 This sound driver have been tested as follows:
 
-2017-07-05-raspbian-jessie --TEST OK!
+2017-07-05-raspbian-jessie --TEST OK! Recommend this OS!
 
-2017-11-29-raspbian-stretch 
+2017-11-29-raspbian-stretch -- driver TEST OK! alsamixer(softvol) fail, HW Volume control is OK! 
 
 2017-04-10-raspbian-jessie and even older version NOT Support!
 
@@ -26,7 +26,12 @@ sudo ./config.sh
 
 sudo reboot
 
+//for 2017-07-05-raspbian-jessie use this method to test HW
 speaker-test -c2 --test=wav -w /usr/share/sounds/alsa/Front_Center.wav
+
+//for 2017-11-29-raspbian-stretch use this method to test HW
+www.baidu.com type character "MP3"
+click the first link will play the sound.
 
 sudo reboot
 
