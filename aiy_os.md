@@ -11,7 +11,7 @@ Active sound card:
 modify /boot/config.txt :
 
 OS default is :
-#Enable audio (loads snd_bcm2835) 
+#Enable audio (loads snd_bcm2835) \
 #dtparam=audio=on 
 #dtoverlay=i2s-mmap
 dtoverlay=googlevoicehat-soundcard
