@@ -11,11 +11,11 @@ Active sound card:
 modify /boot/config.txt :
 
 OS default is : \
-#Enable audio (loads snd_bcm2835) \
+#Enable audio (loads snd_bcm2835) \ 
 #dtparam=audio=on \ 
-#dtoverlay=i2s-mmap \
-dtoverlay=googlevoicehat-soundcard \
-#dtoverlay=googlevisionbonnet-myriad \
+#dtoverlay=i2s-mmap \ 
+dtoverlay=googlevoicehat-soundcard \ 
+#dtoverlay=googlevisionbonnet-myriad \ 
 #dtoverlay=aiy-io \
 #dtoverlay=aiy-leds \
 start_x=1 \
@@ -32,7 +32,7 @@ dtoverlay=googlevoicehat-soundcard \
 #dtoverlay=aiy-leds \
 start_x=1 \
 gpu_mem=128 \
-#dtoverlay=dwc2 \
+#dtoverlay=dwc2 
 
 
 
