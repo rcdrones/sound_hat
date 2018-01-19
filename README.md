@@ -20,6 +20,9 @@ RetroPie
 retropie-4.3-rpi2_rpi3.img.gz -- TEST OK! 
 
 
+Google AIY OS
+--
+readme this link![https://github.com/rcdrones/sound_hat/blob/master/aiy_os.md#info]
 
 
 How to install the driver
