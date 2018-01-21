@@ -117,6 +117,8 @@ git add .
 git commit -m "add driver"
 
 git push -u origin master 
+or
+git push
 
 
 
